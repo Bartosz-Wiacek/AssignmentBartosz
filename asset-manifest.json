@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AssignmentBartosz/static/css/main.aee6124e.css",
+    "main.js": "/AssignmentBartosz/static/js/main.3dd61979.js",
+    "index.html": "/AssignmentBartosz/index.html",
+    "main.aee6124e.css.map": "/AssignmentBartosz/static/css/main.aee6124e.css.map",
+    "main.3dd61979.js.map": "/AssignmentBartosz/static/js/main.3dd61979.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aee6124e.css",
+    "static/js/main.3dd61979.js"
+  ]
+}
