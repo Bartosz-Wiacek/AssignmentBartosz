@@ -1,0 +1,9 @@
+.restaurant-list-wrapper{
+    position: relative;
+    padding-top: 120px ;
+    display: flex;
+    margin: 0px 10% 0 10%;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 0;
+}

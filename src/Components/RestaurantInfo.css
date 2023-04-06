@@ -1,0 +1,52 @@
+.restaurant {
+  display: inline-block;
+  width: 30%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  border: 5px solid #ff8100;
+  transition: all 0.2s ease-in-out;
+}
+
+.restaurant:hover{
+  opacity: 0.5;
+}
+
+.restaurant-text {
+  flex: 1;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.restaurant-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 125px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* resize the logo to fit the container */
+}
+
+@media only screen and (max-width: 1200px) {
+  .restaurant {
+    width: 48%; /* set the width of each restaurant for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .restaurant {
+    width: 100%; /* set the width of each restaurant for even smaller screens */
+    margin-right: 0;
+  }
+}

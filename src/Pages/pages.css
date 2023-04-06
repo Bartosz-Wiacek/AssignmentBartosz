@@ -1,0 +1,14 @@
+.restaurant-page-wrapper{
+    padding: 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.restaurant-page-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
