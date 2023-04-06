@@ -5,7 +5,7 @@ function RestaurantInfo({ name, cuisine, rating, photo }) {
   // This function will be called when the restaurant card is clicked.
   // It navigates to the URL for the restaurant using its name.
   const onClick = () => {
-    window.location = `http://localhost:3000/#/restaurant/${name}`;
+    window.location = `${process.env.PUBLIC_URL}/#/restaurant/${name}`;
   };
 
   // The component renders a restaurant info card with the given information.
