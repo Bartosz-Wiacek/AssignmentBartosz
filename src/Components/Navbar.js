@@ -34,7 +34,7 @@ function Navbar() {
     <header>
       <h3>Bartosz</h3>
       <nav ref={navRef}>
-        <a href="/#">
+        <a href="https://bartosz-wiacek.github.io/AssignmentBartosz/">
           <AiFillHome /> Home
         </a>
         <a href="https://www.linkedin.com/in/bartosz-wiacek/">
